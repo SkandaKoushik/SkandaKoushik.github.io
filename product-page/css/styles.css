@@ -1,0 +1,142 @@
+body {
+    background-color: #eee;
+}
+header {
+    margin: 2px 0px;
+}
+.navbar-logo {
+    margin-right: 30px;
+}
+.navbar-logo img {
+    width: 230px;
+    padding: 0px;
+}
+
+.nav-link {
+    color: black;
+    font-weight: 400pt;
+    font-size: 12pt;
+    padding: 10px 10px;
+}
+.nav-link:hover{
+    color: black;
+    font-weight: bold;
+}
+
+.product-section {
+    background-color: white;
+    padding: 35px;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 90%;
+}
+
+.galary-group img {
+    width: 60px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.product-image-main {
+    width: 500px;
+}
+
+.user-manual button {
+    color: white;
+    background-color: black;
+    padding: 2px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    font-size: 12pt;
+}
+
+.p-type p {
+    font-size: small;
+    margin-top: 150px;
+}
+
+.producct-info {
+    background-color: inherit;
+    width: 90%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.producct-info dd {
+    font-size: 10pt;
+    font-weight: 400;
+}
+
+.producct-info img {
+    width: 100%;
+}
+
+.producct-info p {
+    font-size: 11pt;
+    text-align: center;
+}
+
+.producct-info hr {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.product-features {
+    width: 90%;
+    padding: 10px;
+}
+
+.product-features table {
+    border-collapse: collapse;
+    width: 600px;
+}
+.product-features tr:first-child td  {
+    border-top: none;
+}
+
+.product-features td {
+    border-bottom: 1px solid #bbb;
+    padding-left: 40px;
+}
+
+footer {
+    width: 100%;
+    background-color: white;
+    margin-top: 20px;
+    padding-left: 5%;
+    padding-top: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer .nav-link {
+    color: black;
+    font-weight: 400pt;
+    font-size: 11pt;
+    padding: 1px 10px;
+}
+
+#scrollToTopButton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #eee;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  #scrollToTopButton:hover {
+    background-color: black;
+  }
+  

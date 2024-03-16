@@ -1,0 +1,136 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+
+/* Recipes main page */
+.recipe-main {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.recipe-main h2 {
+    font-size: 26pt;
+}
+.recipe-card {
+    width: 30%;
+    margin-right: 20px;
+    border: none;
+}
+.recipe-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.recipe-card-text {
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+    font-size: 16pt;
+}
+
+
+/* Recipe */
+.recipe {
+    width: 70%;
+    margin-top: 100px;
+    margin-left: 10%;
+}
+.recipe h2 {
+    font-size: 26pt;
+}
+.recipe img {
+    width: 70%;
+    margin-top: 10px;
+}
+.recipe-basic-info {
+    margin-top: 30px;
+}
+.recipe-basic-info ul {
+    list-style-type: none;
+}
+.recipe-basic-info p {
+    font-size: 13pt;
+}
+
+.recipe-main-info{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.recipe-ingredients table {
+    margin-top: 10px;
+}
+.recipe-ingredients td {
+    padding: 5px;
+    font-size: 16px;
+    justify-content: center;
+}
+.recipe-ingredients b {
+    color: #1A5276;
+}
+
+.recipe-directions li {
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.recipe-directions li::marker {
+    font-weight: bold;
+}
+
+
+/* Tag */
+.tags-main {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.tags-main h2 {
+    font-size: 26pt;
+}
+.tag-container {
+    margin-top: 40px;
+}
+.tag {
+    margin-bottom: 30px;
+}
+.tag button{
+    width: 70%;
+    padding: 5px 40px;
+    background-color: #1A5276;
+    color: white;
+    font-size: 30px;
+    border-radius: 15px;
+}
+
+
+/* About */
+.about-main {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 70%;
+    margin-left: 10%;
+}
+.about-main h2 {
+    font-size: 26pt;
+}
+.about-main p {
+    font-size: 12pt;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about-main ul {
+    list-style: none;
+    color: black;
+}
+.about-main a {
+    color: black;
+    font-size: 16pt;
+}
+.about-main a:hover {
+    color: black;
+    font-weight: bold;
+}
+.about-main i {
+    font-size: 20px;
+}
+.about-main ul p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
